@@ -2,7 +2,7 @@
 The file `encodings/repair.lp` contains the ASP encoding described in the paper. `hide.lp` consists of `clingo` Python APIs scripts to obtain timestamps to reproduce paper plots.
 
 ## Instances
-Problem instances used in the paper are available at the following [Google Drive](https://drive.google.com/drive/folders/1b_7aZcX7qJwS-NflwNNbqe7Yi1nlhbrR?usp=sharing). 
+Problem instances used in the paper are available at the following [Google Drive](https://drive.google.com/drive/folders/1b_7aZcX7qJwS-NflwNNbqe7Yi1nlhbrR?usp=sharing) (about 3 GB, 30 GB uncompressed). 
 
 The instance generator is available as the Python package `random_network_generator`. To generate instances, please run the `net_gen_script.py` after installing it (`uv pip install -e .`). Generation parameters can be customised in `instances_gen_script.py`.
 
