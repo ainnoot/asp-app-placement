@@ -1,0 +1,124 @@
+nodes:
+  router:
+    enterprise_router:
+      storage_gb: 2
+      ram_gb: 4
+      cpu: 4
+      availability: 99.9
+      bandwidth_in: 10000
+      bandwidth_out: 10000
+      access_control: true
+      anti_tampering: true
+      encryption: true
+      gpu: false
+      carbon_intensity: 0.3
+      pue: 1.3
+      cost: 1000
+      
+    home_router:
+      storage_gb: 0.5
+      ram_gb: 1
+      cpu: 2
+      availability: 99
+      bandwidth_in: 1000
+      bandwidth_out: 1000
+      access_control: true
+      anti_tampering: false
+      encryption: true
+      gpu: false
+      carbon_intensity: 0.2
+      pue: 1.1
+      cost: 130
+
+  server:
+    application_server:
+      storage_gb: 6000
+      ram_gb: 256
+      cpu: 64
+      availability: 99.99
+      bandwidth_in: 10000
+      bandwidth_out: 10000
+      access_control: true
+      anti_tampering: true
+      encryption: true
+      gpu: true
+      carbon_intensity: 0.6
+      pue: 1.8
+      cost: 6000
+      
+    database_server:
+      storage_gb: 8000
+      ram_gb: 512
+      cpu: 96
+      availability: 99.999
+      bandwidth_in: 5000
+      bandwidth_out: 5000
+      access_control: true
+      anti_tampering: true
+      encryption: true
+      gpu: false
+      carbon_intensity: 0.5
+      pue: 1.7
+      cost: 13000
+
+  pc:
+    workstation_pc:
+      storage_gb: 1000
+      ram_gb: 64
+      cpu: 16
+      availability: 98
+      bandwidth_in: 1000
+      bandwidth_out: 1000
+      access_control: true
+      anti_tampering: false
+      encryption: true
+      gpu: true
+      carbon_intensity: 0.4
+      pue: 1.4
+      cost: 3200
+      
+    office_pc:
+      storage_gb: 500
+      ram_gb: 16
+      cpu: 8
+      availability: 97
+      bandwidth_in: 1000
+      bandwidth_out: 1000
+      access_control: true
+      anti_tampering: false
+      encryption: false
+      gpu: false
+      carbon_intensity: 0.3
+      pue: 1.3
+      cost: 700
+
+  iot:
+    smart_thermostat:
+      storage_gb: 0.1
+      ram_gb: 0.25
+      cpu: 1
+      availability: 99
+      bandwidth_in: 10
+      bandwidth_out: 2
+      access_control: false
+      anti_tampering: false
+      encryption: true
+      gpu: false
+      carbon_intensity: 0.1
+      pue: 1.0
+      cost: 120
+      
+    security_camera:
+      storage_gb: 0.5
+      ram_gb: 1
+      cpu: 2
+      availability: 98
+      bandwidth_in: 5
+      bandwidth_out: 50
+      access_control: true
+      anti_tampering: true
+      encryption: true
+      gpu: false
+      carbon_intensity: 0.2
+      pue: 1.1
+      cost: 210
